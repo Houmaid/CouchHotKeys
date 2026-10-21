@@ -1,11 +1,12 @@
 # 🛋️ CouchHotKeys
 Media-PC Remote Hotkey Tool for Kodi & HTPC setups
 
-<img width="1350" height="907" alt="Bild1" src="https://github.com/user-attachments/assets/072bd1c6-4ed4-42d0-be58-a3967d026d94" />
+<img width="1350" height="907" alt="Bild1" src="https://github.com/user-attachments/assets/3017eef0-a695-47fc-b4fa-95e3fad51534" />
 
-<img width="1345" height="916" alt="Bild2" src="https://github.com/user-attachments/assets/bab9c407-2819-47b2-9876-418ef54a2c9e" />
+<img width="1345" height="916" alt="Bild2" src="https://github.com/user-attachments/assets/77fa1b52-db99-41bf-9ff3-f5d27e2aa4e3" />
 
-<img width="1348" height="918" alt="Bild3" src="https://github.com/user-attachments/assets/66f1e2aa-f7e1-4ef5-908c-dc9ae1e1abbd" />
+<img width="1348" height="918" alt="Bild3" src="https://github.com/user-attachments/assets/0733ae02-dacc-4930-a733-66bce499d357" />
+
 
 ## 📖 User Guide & Documentation
 
