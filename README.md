@@ -147,3 +147,27 @@ The **K symbol** in the header determines what happens to the keys of the remote
 - Double-clicking the tray icon opens the window again. Right-clicking shows "Open" and "Exit".
 - The autostart icon in the header starts CouchHotKeys with Windows, hidden in the background.
 - If you close the window with the X, CouchHotKeys exits and the macros are no longer active.
+
+
+System Requirements
+
+    Windows 10 (version 1809 or later) or Windows 11, 64-bit
+    Not supported: Windows 10 before 1809 and 32-bit Windows
+    Windows on ARM: not tested
+    No .NET installation required, the runtime is included in the folder
+
+Starting
+
+Start CouchHotKeys.exe. The folder can be copied to any location.
+
+On first launch, Windows may show the warning
+"Windows protected your PC", because the program is not signed.
+Click "More info" and then "Run anyway".
+Data
+
+Macros and settings are stored in:
+%APPDATA%\CouchHotKeys\macros.json
+%APPDATA%\CouchHotKeys\error.log (error log)
+Uninstalling
+
+Delete the folder. Optionally delete %APPDATA%\CouchHotKeys as well.
