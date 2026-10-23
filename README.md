@@ -1,16 +1,20 @@
 # 🛋️ CouchHotKeys
 Media-PC Remote Hotkey Tool for Kodi & HTPC setups
 
-<img width="1350" height="907" alt="Bild1" src="https://github.com/user-attachments/assets/3017eef0-a695-47fc-b4fa-95e3fad51534" />
+<img width="1353" height="910" alt="Bild1" src="https://github.com/user-attachments/assets/62ccd6c9-e288-4478-bbc2-07d3d215a6c1" />
 
-<img width="1345" height="916" alt="Bild2" src="https://github.com/user-attachments/assets/77fa1b52-db99-41bf-9ff3-f5d27e2aa4e3" />
+<img width="1345" height="916" alt="Bild2" src="https://github.com/user-attachments/assets/734e4418-7dd4-45b1-88bf-96d011450fb6" />
 
-<img width="1348" height="918" alt="Bild3" src="https://github.com/user-attachments/assets/0733ae02-dacc-4930-a733-66bce499d357" />
+<img width="1345" height="916" alt="Bild3" src="https://github.com/user-attachments/assets/bd948abd-a5e2-4ced-a34f-1531841bee39" />
 
 
 ## 📖 User Guide & Documentation
 
-### 1. Getting started: create a macro
+### 1. Device Names:
+  - Device names: You can give each device a short name, e.g. "Couch Remote". Open the new keyboard button in the header (between Theme and K), choose a device and enter its name. The name is used wherever the device is shown.
+  - Macro list grouped by device: Macros are grouped under the name of their device. Macros without a device (media keys) are listed under an empty heading.
+  - 
+### 1. create a macro
 - Click **"+ New"** to create a new macro.
 - Click **"🔍 Scan Key"** and press the desired key on your remote.
 - Choose an action and click **"💾 Save Macro"**.
@@ -20,10 +24,10 @@ Media-PC Remote Hotkey Tool for Kodi & HTPC setups
 ---
 
 ### 2. Live status (key display)
-The live status shows what CouchKey received last. It helps with learning keys and with troubleshooting.
+The live status shows what CouchhotKey received last. It helps with learning keys and with troubleshooting.
 
 **The lines mean:**
-- **Device:** `"Couch"` or `"Main"` with the device path. `"Couch"` means the key comes from the remote, `"Main"` from the main keyboard.
+- **Device:** `"Device" or "Main" with the device path. "Device" means the key comes from the remote, "Main" from the main keyboard.
 - **Key:** `VK=… SC=…` for keyboard keys. `VK` is the Windows code of the key, `SC` the hardware code. Both values are decimal. *Example: VK=48 SC=11 is the digit 0.*
 - **HID:** `…` for keys that do not go through the keyboard, e.g. volume, rewind or mail on the remote. The value is the raw report in hex. *Example: 01 B4 00 is rewind.*
 
@@ -60,7 +64,7 @@ Enter the path or pick the file with **"Browse"**.
 - `Focus{thunderbird}` switches to the e-mail program.
 - `Focus{explorer}` brings Explorer to the front, or opens it if no Explorer window is open.
 
-> 💡 *The name is the process name without ".exe", as shown in Task Manager under "Details". If CouchKey finds no process, it searches by window title.*
+> 💡 *The name is the process name without ".exe", as shown in Task Manager under "Details". If CouchhotKey finds no process, it searches by window title.*
 
 ---
 
@@ -94,7 +98,7 @@ The input is sent to the currently active window.
 ---
 
 ### 8. Solving problems
-- **Macro does not react:** Was it saved? Is CouchKey running (tray icon)? Scan the key again.
+- **Macro does not react:** Was it saved? Is CouchhotKey running (tray icon)? Scan the key again.
 - **The wrong window receives the keys:** First bring the target window to the front with `Focus{…}`.
 - **"File not found":** Check the path and use quotation marks if it contains spaces.
 - **Focus{…} finds nothing:** Check the process name in Task Manager under "Details".
@@ -128,8 +132,8 @@ The input is sent to the currently active window.
 The **K symbol** in the header determines what happens to the keys of the remote.
 
 **There are two modes:**
-1. **Pass key through (compatibility mode, default):** CouchKey runs the macro's action. The key also goes to the active program, for example an editor, where the character then appears. Recommended if you are unsure.
-2. **Block key (couch mode):** The remote's keys are processed only by CouchKey. Windows and other programs do not receive the signal. This avoids double input.
+1. **Pass key through (compatibility mode, default):** CouchhotKey runs the macro's action. The key also goes to the active program, for example an editor, where the character then appears. Recommended if you are unsure.
+2. **Block key (couch mode):** The remote's keys are processed only by CouchhotKey. Windows and other programs do not receive the signal. This avoids double input.
 
 > ⚠️ *In couch mode, a main keyboard key with the same scan code is blocked as well and triggers the macro. Nothing is blocked during a scan.*  
 > 💡 *The choice is saved and stays after a restart.*
