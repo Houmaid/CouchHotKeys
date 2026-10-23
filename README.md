@@ -13,7 +13,7 @@ Media-PC Remote Hotkey Tool for Kodi & HTPC setups
 ### 1. Device Names:
   - Device names: You can give each device a short name, e.g. "Couch Remote". Open the new keyboard button in the header (between Theme and K), choose a device and enter its name. The name is used wherever the device is shown.
   - Macro list grouped by device: Macros are grouped under the name of their device. Macros without a device (media keys) are listed under an empty heading.
-  - 
+    
 ### 1. create a macro
 - Click **"+ New"** to create a new macro.
 - Click **"🔍 Scan Key"** and press the desired key on your remote.
