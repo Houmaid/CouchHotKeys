@@ -85,7 +85,7 @@ The input is sent to the currently active window.
 
 ### 7. Manage macros
 - **Edit:** Click the macro in the list, change it, then click **"Save Macro"**.
-- **Delete:** Select the macro and click **"Delete"**. It is removed immediately and permanently.
+- **Delete:** Select the macro and click **"Delete"**.
 - **Export:** Back up all macros as a JSON file.
 - **Import:** Load a JSON file. You decide whether to append the macros ("Yes"), replace the existing list ("No"), or cancel the import ("Cancel").
 
